@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking | Dhaashi Skincare</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Booking Form</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Book or Contact Us</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">&nbsp;&nbsp;
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="female"> Female &nbsp;&nbsp;
+        <input type="radio" name="gender" value="male"> Male&nbsp;&nbsp;
+
+        <label for="product">Favorite Product Type:</label>&nbsp;&nbsp;
+        <select id="product" name="product">
+          <option value="cleanser">Cleanser</option>
+          <option value="cream">Cream</option>
+          <option value="serum">Serum</option>
+        </select>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="shopping"> Shopping
+        <input type="checkbox" name="hobbies" value="reading"> Reading
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p>We care about your skincare journey!</p>
+  </footer>
+</body>
+</html>
+

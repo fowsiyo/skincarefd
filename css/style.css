@@ -1,0 +1,59 @@
+ style.css - Dhaashi Skincare Store 
+
+General Reset 
+
+{ margin: 0; padding: 0; box-sizing: border-box; }
+
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #fff; color: #333; }
+
+header { background-color: #5a2a82; color: white; padding: 20px; text-align: center; }
+
+nav ul { list-style: none; display: flex; justify-content: center; background-color: #8041a9; padding: 10px 0; }
+
+nav ul li { margin: 0 15px; }
+
+nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+
+nav ul li a:hover { text-decoration: underline; }
+
+main { padding: 20px; }
+.hero { background: linear-gradient(to right, #d5b8ff, #f3e8ff); padding: 40px; text-align: center; border-radius: 12px; margin-bottom: 30px; }
+
+.featured { text-align: center; }
+
+.product-list { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+
+.product { border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 200px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+.product img { max-width: 100%; border-radius: 10px; }
+
+footer { background-color: #5a2a82; color: white; text-align: center; padding: 15px; margin-top: 40px; }
+
+.gallery img { width: 250px; margin: 10px; border-radius: 10px; box-shadow: 0 0 5px rgba(0,0,0,0.2); }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+
+thead { background-color: #8041a9; color: white; }
+
+td, th { border: 1px solid #ddd; padding: 10px; text-align: center; }
+
+tr:nth-child(even) { background-color: #f9f1ff; }
+
+form { max-width: 600px; margin: auto; display: flex; flex-direction: column; gap: 15px; background: #f3e8ff; padding: 20px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+input[type="text"], select, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 6px; width: 100%; }
+
+input[type="submit"] { background-color: #8041a9; color: white; padding: 10px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+
+input[type="submit"]:hover { background-color: #5a2a82; }
+
+label { font-weight: bold; }
+
+fieldset { border: 2px solid #ccc; border-radius: 8px; padding: 20px; }
+
+legend { padding: 0 10px; font-weight: bold; color: #5a2a82; }
+
+h1, h2, h3, h4 { color: #5a2a82; }
+
+section { margin-bottom: 30px; }
